@@ -5,7 +5,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/debug/helloworld", // Adjust path as necessary
+      "program": "${workspaceFolder}/build/debug/${workspaceFolderBasename}", // Adjust path as necessary
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

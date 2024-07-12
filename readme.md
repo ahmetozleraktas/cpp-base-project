@@ -1,5 +1,5 @@
 # Base C++ Project
-This workspace serves as a base for all my C++ projects development on VSCode. It provides a starting point with common installations and settings.
+This workspace serves as a base for all my C++ projects development on VSCode. It provides a starting point with common installations and settings. In this workspace, builds are named based on the base folder of the project, while CMake takes its project name from the same base folder. Additionally, Visual Studio Code tasks are configured to work with this specific project structure and naming convention. You can name this project whatever you want after cloning it.
 
 ## Installation
 
@@ -67,5 +67,4 @@ If you would like to contribute to this base C++ project, feel free to submit a 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use it as a starting point for your own C++ projects.
-
 
