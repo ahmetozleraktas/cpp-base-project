@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",      // C/C++ extension by Microsoft
+        "ms-vscode.cmake-tools",   // CMake Tools extension by Microsoft
+        "twxs.cmake",              // CMake language support
+        "xaver.clang-format",      // Clang-Format extension
+        "eamodio.gitlens"          // GitLens for Git integration
+    ]
+}

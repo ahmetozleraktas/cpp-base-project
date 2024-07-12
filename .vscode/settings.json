@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "clang-format.executable": "/usr/bin/clang-format",
+    "clang-format.style": "file",
+    "cmake.configureOnOpen": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    }
+}

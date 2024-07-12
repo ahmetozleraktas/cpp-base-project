@@ -1,0 +1,35 @@
+---
+# Example .clang-format file for C++ projects
+Language: Cpp
+BasedOnStyle: Google  # Uncomment and customize if you want to base on Google style
+
+# Indentation
+IndentWidth: 4
+UseTab: Never
+TabWidth: 4
+
+# Wrapping
+ColumnLimit: 100
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+BreakBeforeBraces: Attach
+
+# Spaces
+SpacesInParentheses: false
+SpacesInAngles: false
+SpacesInContainerLiterals: true
+SpaceBeforeAssignmentOperators: true
+
+# Pointer and reference alignment
+PointerAlignment: Right
+
+# Indentation in switch statements
+IndentCaseLabels: true
+
+# Line breaks
+MaxEmptyLinesToKeep: 1
+
+# Comment formatting
+CommentPragmas: '^ IWYU pragma:'
+...
